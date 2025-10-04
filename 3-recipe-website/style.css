@@ -74,14 +74,17 @@ a{
 .rightBox{
     position: relative;
     overflow: hidden;
+    transform: all 0.3s linear 0s;
 }
 .rightBox img{
     height: 300px;
     width: 250px;
     border-radius: 20px;
     transition: all 0.6s linear 0s;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 20px;
 }
-.rightBox img:hover{
+.rightBox:hover{
     transform: scale(1.1);
 }
 .leftBox{
@@ -109,6 +112,7 @@ a{
     justify-content: center;
     border-radius: 20px;
     opacity: 0;
+    transition: all 0.3s linear 0s;
 }
 .rightBox:hover .overlay{
     opacity: 1;
